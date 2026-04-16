@@ -53,13 +53,13 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 ## 📈 Dashboard Insights
 
 #### Query
+*![Dashboard](Productperformancequery.png)*
 
 #### Outlook
+*![Dashboard](Productoutlook.png)*
 
-### 📊 Product Performance (Excel Dashboard)
-
-📸 * ![Dashboard](productsperformance.png)
-*
+### 📊 Excel Dashboard
+📸 *![Dashboard](productsperformance.png)*
 
 * **Top Product:** Water Bottle – 30 oz
 * Consistently ranks #1 across all years and age groups
@@ -72,11 +72,13 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 ### 🌍 Country Performance
 
 #### Query
-
+*![Dashboard](Countryperformancequery.png)*
 
 #### Outlook
+*![Dashboard](Countryperformanceoutlook.png)*
 
-📸*![Dashboard](bestcountry.png)*
+### 📊 Excel Dashboard
+📸 *![Dashboard](bestcountry.png)*
 
 * **Top Market:** United States
 * **Key Region:** California (~60% of US revenue)
@@ -89,9 +91,12 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 ### 📉 Year-over-Year (YoY) Performance
 
 #### Query
+*![Dashboard](YoY_query.png)*
 
 #### Outlook
+*![Dashboard](YoY_percentoutlook.png)*
 
+### 📊 Excel Dashboard
 📸 *![Dashboard](YoY_dashboard.png)*
 
 * **2014:** +31.31% growth
