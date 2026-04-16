@@ -144,6 +144,10 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 * **Risk Control:** Analyze and prevent future downturns
 
 ---
+## 🔗 Project Link
+Explore the full project, SQL queries here:  
+👉 https://github.com/your-username/your-repo-name
+---
 
 ## 📸 Dashboard Section
 
