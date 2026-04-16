@@ -52,9 +52,14 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 
 ## 📈 Dashboard Insights
 
+#### Query
+
+#### Outlook
+
 ### 📊 Product Performance (Excel Dashboard)
 
-📸 *[Insert Screenshot: Product Best Performance Dashboard]*
+📸 * ![Dashboard](productsperformance.png)
+*
 
 * **Top Product:** Water Bottle – 30 oz
 * Consistently ranks #1 across all years and age groups
@@ -66,7 +71,12 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 
 ### 🌍 Country Performance
 
-📸 *[Insert Screenshot: Best Country Performance Dashboard]*
+#### Query
+
+
+#### Outlook
+
+📸*![Dashboard](bestcountry.png)*
 
 * **Top Market:** United States
 * **Key Region:** California (~60% of US revenue)
@@ -78,7 +88,11 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 
 ### 📉 Year-over-Year (YoY) Performance
 
-📸 *[Insert Screenshot: YoY % Performance Dashboard]*
+#### Query
+
+#### Outlook
+
+📸 *![Dashboard](YoY_dashboard.png)*
 
 * **2014:** +31.31% growth
 * **2015:** -26.62% decline
@@ -138,10 +152,8 @@ This project includes Excel dashboards for quick visual understanding:
 
 ## 🤝 Contact
 
-* **Name:** John Chidera Osi
 * **Email:** chiderajohn519@gmail.com
-* **LinkedIn:** [Insert Link]
-* **GitHub:** [Insert Profile]
+* **LinkedIn:** www.linkedin.com/in/john-chidera-osi-0b6b55319
 
 ---
 
