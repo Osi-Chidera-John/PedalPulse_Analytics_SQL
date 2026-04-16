@@ -40,7 +40,7 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 
 ---
 
-## 📊 Key Metrics (At a Glance)
+## 📊 Key Metrics 
 
 * **Total Revenue:** $2,194,468
 * **Total Profit:** $1,273,182
