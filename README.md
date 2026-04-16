@@ -145,8 +145,10 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 
 ---
 ## 🔗 Project Link
+
 Explore the full project, SQL queries here:  
-👉 https://github.com/your-username/your-repo-name
+👉 https://github.com/Osi-Chidera-John/PedalPulse_Analytics_SQL/blob/main/queries.sql
+
 ---
 
 ## 📸 Dashboard Section
