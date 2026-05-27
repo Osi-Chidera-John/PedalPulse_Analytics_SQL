@@ -163,7 +163,7 @@ This project includes Excel dashboards for quick visual understanding:
 ## 🤝 Contact
 
 * **Email:** chiderajohn519@gmail.com
-* **LinkedIn:** www.linkedin.com/in/john-chidera-osi-0b6b55319
+* **LinkedIn:** https://www.linkedin.com/in/john-chidera-jr-0b6b55319/
 
 ---
 
