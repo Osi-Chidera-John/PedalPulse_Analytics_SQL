@@ -32,6 +32,7 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 ## 🛠️ Tools & Skills Demonstrated
 
 * **MySQL (Core Analysis)**
+* **GitHub:** Project hosting and version control
 * Data Cleaning & Transformation
 * Aggregations
 * Window Functions
@@ -62,7 +63,7 @@ GROUP BY
    Product
 ORDER BY 1 DESC;
 ```
-![top products](assets/)
+![top products](assets/product_performance.png)
 
 * **Top Product:** Water Bottle – 30 oz
 * Consistently ranks #1 across all years and age groups
@@ -169,6 +170,20 @@ FROM(
 * **Risk Control:** Analyze and prevent future downturns
 
 ---
+
+## 📚 Key Learnings
+
+Through this project, I strengthened my ability to transform raw sales data into actionable business insights using SQL. Key takeaways include:
+
+- Improved proficiency in **data cleaning and transformation** to ensure data accuracy and reliability.
+- Gained hands-on experience with **aggregate functions** to summarize and analyze business performance metrics.
+- Applied **window functions** to perform advanced analytical calculations and year-over-year comparisons.
+- Developed skills in identifying **sales trends, revenue patterns, and business opportunities** from transactional data.
+- Enhanced my ability to translate SQL query results into **meaningful business recommendations**.
+- Strengthened problem-solving and analytical thinking through real-world business data exploration.
+  
+---
+
 ## 🔗 Project Link
 
 Explore the full project, SQL queries here: [Open Work](https://github.com/Osi-Chidera-John/PedalPulse_Analytics_SQL/blob/main/queries.sql)
