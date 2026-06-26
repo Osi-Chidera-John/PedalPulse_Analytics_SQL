@@ -53,13 +53,24 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 ## 📈 Dashboard Insights
 
 #### Query
-*![Dashboard](Productperformancequery.png)*
+```sql
+SELECT 
+   Product, 
+   SUM(Revenue) AS Total_Revenue, 
+   SUM(Profit) AS Total_Profit
+FROM sales1
+GROUP BY
+   Product
+ORDER BY 1 DESC;
+```
+| Product                     | Total Revenue | Total Profit |
+|----------------------------|--------------:|-------------:|
+| Water Bottle - 30 oz.      | 700,706       | 392,614      |
+| Road Bottle Cage           | 305,061       | 191,637      |
+| Mountain Bottle Cage       | 328,071       | 183,255      |
+| Hitch Rack - 4-Bike        | 519,211       | 305,326      |
+| All-Purpose Bike Stand     | 341,419       | 200,350      |
 
-#### Outlook
-*![Dashboard](Productoutlook.png)*
-
-### 📊 Excel Dashboard
-📸 *![Dashboard](productsperformance.png)*
 
 * **Top Product:** Water Bottle – 30 oz
 * Consistently ranks #1 across all years and age groups
@@ -71,14 +82,26 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 
 ### 🌍 Country Performance
 
-#### Query
-*![Dashboard](Countryperformancequery.png)*
+```sql
+SELECT
+  Country, 
+  SUM(Revenue) AS Total_Revenue, 
+  SUM(Profit) AS Total_Profit
+FROM sales1
+GROUP BY 
+  Country
+ORDER BY 2 DESC;
+```
 
-#### Outlook
-*![Dashboard](Countryperformanceoutlook.png)*
+| Country | Total Revenue | Total Profit |
+|----------|-------------:|------------:|
+| United States | 830,434 | 480,613 |
+| Australia | 389,332 | 214,728 |
+| Canada | 325,817 | 199,669 |
+| United Kingdom | 247,835 | 149,586 |
+| Germany | 219,096 | 127,303 |
+| France | 181,954 | 101,283 |
 
-### 📊 Excel Dashboard
-📸 *![Dashboard](bestcountry.png)*
 
 * **Top Market:** United States
 * **Key Region:** California (~60% of US revenue)
@@ -90,11 +113,18 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 
 ### 📉 Year-over-Year (YoY) Performance
 
-#### Query
-*![Dashboard](YoY_query.png)*
+```sql
+SELECT *, 
+  Total_Revenue - Previos_Year AS YoY_Increase,
+  ROUND(((Total_Revenue - Previos_Year)/Previos_Year)*100,2) AS YoY_Percentage
+FROM(
+  SELECT YEAR(`date`) AS `Year`, SUM(Revenue) AS Total_Revenue,
+  LAG(SUM(Revenue),1,0) OVER(ORDER BY YEAR(`date`)) AS Previos_Year
+  FROM sales1
+  GROUP BY `Year`) AS X;
+```
 
-#### Outlook
-*![Dashboard](YoY_percentoutlook.png)*
+
 
 ### 📊 Excel Dashboard
 📸 *![Dashboard](YoY_dashboard.png)*
