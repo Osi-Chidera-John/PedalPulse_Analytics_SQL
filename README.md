@@ -62,14 +62,7 @@ GROUP BY
    Product
 ORDER BY 1 DESC;
 ```
-| Product                     | Total Revenue | Total Profit |
-|----------------------------|--------------:|-------------:|
-| Water Bottle - 30 oz.      | 700,706       | 392,614      |
-| Road Bottle Cage           | 305,061       | 191,637      |
-| Mountain Bottle Cage       | 328,071       | 183,255      |
-| Hitch Rack - 4-Bike        | 519,211       | 305,326      |
-| All-Purpose Bike Stand     | 341,419       | 200,350      |
-
+![top products](assets/)
 
 * **Top Product:** Water Bottle – 30 oz
 * Consistently ranks #1 across all years and age groups
