@@ -32,7 +32,6 @@ It is built to showcase **real-world data analytics skills** — not just queryi
 ## 🛠️ Tools & Skills Demonstrated
 
 * **MySQL (Core Analysis)**
-* **Excel (Dashboard & Visualization)**
 * Data Cleaning & Transformation
 * Aggregations
 * Window Functions
@@ -124,10 +123,13 @@ FROM(
   GROUP BY `Year`) AS X;
 ```
 
+| Year | Total Revenue | Previous Year Revenue | YoY Increase | YoY Growth (%) |
+| ---- | ------------: | --------------------: | -----------: | -------------: |
+| 2013 |       484,054 |                     0 |      484,054 |            N/A |
+| 2014 |       635,604 |               484,054 |      151,550 |         31.31 |
+| 2015 |       466,421 |               635,604 |     -169,183 |        -26.62 |
+| 2016 |       608,389 |               466,421 |      141,968 |         30.44 |
 
-
-### 📊 Excel Dashboard
-📸 *![Dashboard](YoY_dashboard.png)*
 
 * **2014:** +31.31% growth
 * **2015:** -26.62% decline
@@ -177,16 +179,6 @@ FROM(
 ## 🔗 Project Link
 
 Explore the full project, SQL queries here: [Open Work](https://github.com/Osi-Chidera-John/PedalPulse_Analytics_SQL/blob/main/queries.sql)
-
----
-
-## 📸 Dashboard Section
-
-This project includes Excel dashboards for quick visual understanding:
-
-* Product Performance Dashboard
-* Country Performance Dashboard
-* Year-over-Year Growth Dashboard
 
 ---
 
